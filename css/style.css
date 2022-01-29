@@ -1,0 +1,97 @@
+
+.titulo{
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 75px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+  }
+  
+.subtitulo{
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    font-weight: 300; 
+    line-height: 32px; 
+
+    text-align: center;
+}
+  
+.textotitulo{
+    color: #685206; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px; 
+    line-height: 24px; 
+    margin: 0 0 50px; 
+    text-align: center; 
+  }
+
+.medio{
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.divNav{
+  text-align: center;
+  justify-content: center;
+}
+
+
+table{
+  width: 100%;
+}
+
+.divTable{
+  padding: 40px 120px;
+  justify-content: center;
+}
+
+.buttons{
+  padding: 10px ;
+}
+
+.divInputs{
+  padding: 0px 70px;
+  justify-content: center;
+}
+
+footer{
+  background-color: lightblue;
+  height: 90px;
+  
+}
+
+.footerIndex{
+  margin-top: 100px;
+}
+
+.pFooter{
+  padding-top: 15px;
+}
+
+.footerReservacion{
+  margin-top: 60px;
+}
+
+.formulario{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  margin-top: 50px;
+}
+
+
+.formulario-ul{
+  list-style: none;
+  padding: 0;
+}
+
+.img-carrusel{
+  height: 500px;
+  width: 100px;
+}
