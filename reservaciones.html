@@ -35,40 +35,40 @@
         
       </nav>
 
-    <div >
+    <h2 class="text-center tituloReserva">Complete el formulario para generar una reserva:</h2>
         <form class="formulario">
             <ul class="formulario-ul">
-                <li>
-                    <label for="">Nombre y Apellido</label>
+                <li class="liReserva">
+                    <label>Nombre y apellido: </label>
                     <input type="text" name="NyA" value="">
                 </li>
-                <li>
-                    <label for="">Cantidad de personas</label>
-                    <input type="text" name="Cant" value="">
+                <li class="liReserva">
+                    <label>Cantidad de personas: </label>
+                    <input type="number" name="Cant" value="">
                 </li>
-                <li>
-                    <label for="">Horario de la reserva</label>
-                    <input type="text" name="Horario" value="">
+                <li class="liReserva"> 
+                    <label >Horario de la reserva: </label>
+                    <input type="time" name="Horario" value="">
                 </li>
-                <li>
-                    <label for="">Telefono/Celular</label>
-                    <input type="text" name="Telf" value="">
+                <li class="liReserva">
+                    <label>Telefono/Celular: </label>
+                    <input type="number" name="Telf" value="">
                 </li>
-                <li>
-                    <label for="">Observaciones</label>
+                <li class="liReserva">
+                    <label>Observaciones: </label>
                     <textarea name="Observaciones" cols="40" rows="4" placeholder="Introduzca sus observaciones aqui"></textarea>
                 </li>
-                <label for="">CAPTCHA</label>
+                <label >CAPTCHA: </label>
                 <div>
-                    <input type="text" name="captcha" id="captcha-usuario" value="" placeholder="Ingrese el captcha">
-                    <input type="number" value="" id="captcha" disabled>
-                    <input type="button" class="btn btn-info " value="Reservar" id="enviar">
+                  <input type="number" value="" id="captcha" disabled>
+                  <input class="captchaReserva"  type="text" name="captcha" id="captcha-usuario" value="" placeholder="Ingrese el captcha">
+                    <input type="button" class="btn btn-info btnReservar" value="Reservar" id="enviar">
                     <p id="formularioenviado"></p>
                     <p id="error"></p>
                 </div>
             </ul>
         </form>
-        </div>
+
 
         <footer class="text-center footerReservacion">
             <p class="pFooter">Direccion: Av. Rivadavia 211, Tandil, Buenos Aires</p>

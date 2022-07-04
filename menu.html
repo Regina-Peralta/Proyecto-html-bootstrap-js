@@ -37,7 +37,7 @@
 
       <div class="text-center">
  
-        <h4>Buscar comidas menores o iguales a (en precio efectivo):</h4> 
+        <h4 >Buscar comidas menores o iguales a (en precio efectivo):</h4> 
           <input  type="number" value=""   id="filtrar">
             <button type="button" id="btn-buscar">Buscar</button>
 
@@ -47,37 +47,55 @@
         <table class="table table-success table-striped ">
             <thead>
                 <tr>
-                    <th>Comida</th>
-                    <th>Precio Efectivo</th>
-                    <th>Precio Tarjeta</th>
-                    <th>Borrar </th>
-                    <th>Editar  </th>
+                  <th>Comida</th>
+                  <th>Efectivo</th>
+                  <th>Débito</th>
+                  <th>Borrar </th>
+                  <th>Editar  </th>
                 </tr>
             </thead>
+            
             <tbody id="result">
             </tbody>
+
         </table>
 
-        <div class="text-center divInputs">
-            <p>Comida</p>
-              <input class="form-control" type="text" id="comida-post" >
-            <p>Precio Efectivo</p>
-              <input class="form-control" type="text" id="precioefe-post">
-            <p>Precio Tarjeta</p>
-              <input class="form-control" type="text"  id="preciotar-post" > 
-        </div>
-            <div class="text-center buttons">
-              <button class="btn btn-info" type="button" name="button" id="button-post">Agregar</button>
-              <button class="btn btn-info" type="button" name="button" id="button-postx3">Agregarx3</button>
+       
+        <form class="formMenu">
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Comida: </label>
+              <div class="col-sm-10 divForm">
+                <input class="form-control" type="text" id="comida-post" >
+              </div>
             </div>
-
-        <div class="text-center divInputs">
-           
-            <input class="form-control text-center" type="text" id="comida" placeholder="Comida a editar">
-            <input class="form-control text-center" type="text" id="precioefe" placeholder="Precio Efectivo a editar">
-            <input class="form-control text-center" type="text" id="preciotar" placeholder="Precio Tarjeta a editar">
+          <div class="form-group row"> 
+            <label class="col-sm-2 col-form-label">Efectivo:</label>
+              <div class="col-sm-10 divForm">  
+                <input class="form-control" type="text" id="precioefe-post">
+              </div>
+          </div>
+          <div class="form-group row"> 
+            <label class="col-sm-2 col-form-label">Débito:</label>
+              <div class="col-sm-10 divForm"> 
+                <input class="form-control" type="text"  id="preciotar-post" >  
+              </div>
+            </div>
+        </form>
             
+       
+        <div class="text-center buttons">
+            <button class="btn btn-info" type="button" name="button" id="button-post">Agregar</button>
+            <button class="btn btn-info" type="button" name="button" id="button-postx3">Agregarx3</button>
         </div>
+
+        <form class="formMenu">
+           <p class="text-center">Escribir los datos y luego presionar el boton editar en la fila correspondiente:</p>
+            <input class="form-control text-center inputEdicion" type="text" id="comida" placeholder="Comida a editar">
+            <input class="form-control text-center inputEdicion" type="text" id="precioefe" placeholder="Efectivo a editar">
+            <input class="form-control text-center inputEdicion" type="text" id="preciotar" placeholder="Débito a editar">
+            
+        </form>
+
     </div>
 
     

@@ -1,4 +1,7 @@
 
+*{
+  font-family: 'Open Sans', sans-serif; 
+}
 .titulo{
     color: #111; 
     font-family: 'Open Sans', sans-serif; 
@@ -14,8 +17,7 @@
     font-family: 'Open Sans', sans-serif; 
     font-size: 20px; 
     font-weight: 300; 
-    line-height: 32px; 
-
+    line-height: 32px;
     text-align: center;
 }
   
@@ -31,6 +33,8 @@
 .medio{
     padding-top: 100px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .divNav{
@@ -41,21 +45,23 @@
 
 table{
   width: 100%;
+  text-align: center;
 }
 
 .divTable{
-  padding: 40px 120px;
+  padding-top: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
   justify-content: center;
+  margin: auto;
+  width: 70%;
 }
 
 .buttons{
-  padding: 10px ;
+  padding-bottom: 10px;
 }
 
-.divInputs{
-  padding: 0px 70px;
-  justify-content: center;
-}
+
 
 footer{
   background-color: lightblue;
@@ -76,13 +82,12 @@ footer{
 }
 
 .formulario{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   margin: 0 auto;
-  width: 400px;
+  width: 420px;
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 
@@ -94,4 +99,48 @@ footer{
 .img-carrusel{
   height: 500px;
   width: 100px;
+}
+
+.carousel{
+width: 70%;
+margin: auto;
+}
+
+.formMenu{
+  padding: 0px 70px;
+  justify-content: center;
+}
+
+.divForm{
+  margin: 10px 0px;
+}
+
+.inputEdicion{
+  margin: 3px 5px;
+}
+
+.inputReserva{
+  width:40px;
+}
+
+.btnReservar{
+ margin-left: 10px;
+}
+.liReserva{
+  margin-bottom: 5px;
+}
+.captchaReserva{
+  margin-top: 15px;
+}
+
+
+div h4{
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+.tituloReserva{
+  font-weight: bold;
+  margin-top: 20px;
 }
